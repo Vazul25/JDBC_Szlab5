@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp codebase="http://rapid.eik.bme.hu/~cm6uku/jdbc" href="application.jnlp">
+	<information>
+		<title>My Java Webstart JDBC Application</title>
+		<vendor>Kovacs Levente Akos</vendor>
+		<icon href="logo.png" kind="default" />
+	</information>
+	<security>
+		<all-permissions />
+	</security>
+	<resources arch="" os="">
+		<j2se version="1.7+" />
+		<jar href="ojdbc7.jar" />
+		<jar href="MySignedApplication.jar" main="true" />
+	</resources>
+	<application-desc />
+</jnlp>
